@@ -24,9 +24,7 @@ function About() {
           </div>
           <div className="movie-det">
             <div className="media">
-         
-
-              <video className="triller-vieo"  controls>
+              <video className="triller-vieo" controls>
                 <source src={triller} type="video/mp4" />
               </video>
             </div>
@@ -35,8 +33,7 @@ function About() {
                 <h1>Summary:</h1>
                 <p>
                   A high school chemistry teacher diagnosed with inoperable lung
-                  cancer turns to manufacturing and selling methamphetamine in
-                  order to secure his family's future
+                  cancer turns to manufacturing and selling methamphetamine
                 </p>
               </div>
               <div className="creator">
@@ -48,11 +45,9 @@ function About() {
                 <div className="casts-names">
                   <p>
                     Bryan Cranston · Walter White ; Aaron Paul · Jesse Pinkman ;
-                    Anna Gunn·
                   </p>
                   <p>
                     Skyler White ; Betsy Brandt · Marie Schrader ; RJ Mitte ·
-                    Walter White, Jr
                   </p>
                 </div>
               </div>

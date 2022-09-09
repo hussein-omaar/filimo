@@ -92,7 +92,7 @@
 .hero_section .blur-div header .search-user .user-search-container {
 
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     gap: 1.5rem;
 
 
@@ -148,6 +148,7 @@
 
 
 
+
 }
 
 
@@ -159,8 +160,7 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
-    /* gap: 1rem; */
+
 }
 
 
@@ -513,8 +513,8 @@
 
 
         cursor: pointer;
-        width: 25%;
-        height: 25px;
+        width: 43%;
+        height: 18px;
 
 
     }
@@ -647,7 +647,7 @@
 
 
 
-        font-size: 11px;
+        font-size: 10px;
 
 
     }
@@ -691,6 +691,14 @@
     }
 
 
+    .hero_section .blur-div .movie-info .actions .partisipate .download span {
+
+
+        font-size: 8px;
+
+
+
+    }
 
 
     .hero_section .blur-div .movie-info .actions .give-rate {
@@ -718,7 +726,7 @@
     .hero_section .blur-div .movie-info .actions .give-rate .your-rate span {
 
 
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .hero_section .blur-div .movie-info .actions .give-rate .your-rate .fa-sharp {

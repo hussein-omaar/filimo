@@ -251,7 +251,8 @@
     .comments .comments-title {
 
 
-        width: 250px;
+        width: 100%;
+        justify-content: center;
     }
 
     .comments .feed {
@@ -281,7 +282,8 @@
 
 
         height: 40px;
-        justify-content: space-between;
+        justify-content: space-around;
+        padding-left: unset;
 
     }
 
@@ -301,7 +303,7 @@
 
     }
 
-  
+
     .comments .feed .public-comments .com .com-info {
 
 
@@ -341,8 +343,8 @@
 
     .comments .feed .public-comments .com .com-info .user-pro {
 
-        width: 10%;
-        height: 40%;
+        width: 11%;
+        height: 27%;
     }
 
 

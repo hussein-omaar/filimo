@@ -15,8 +15,7 @@ function Episodes() {
       id: 123,
     },
     {
-      photo:
-        "https://m.media-amazon.com/images/I/81QtuaZN7JL._AC_SY741_.jpg",
+      photo: "https://m.media-amazon.com/images/I/81QtuaZN7JL._AC_SY741_.jpg",
       title: "Episode 2",
       alt: "image",
       id: 123,
@@ -95,7 +94,6 @@ function Episodes() {
     },
   ]);
 
-
   const settings = {
     dots: false,
     infinite: false,
@@ -110,31 +108,26 @@ function Episodes() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-        }
-      }
-    ]
+        },
+      },
+    ],
   };
-
-
-
-
-
 
   return (
     <>
@@ -146,7 +139,6 @@ function Episodes() {
             <div className="line"></div>
           </div>
 
-          
           {/* <div className="arrows">
             <i class="fa-sharp fa-solid fa-circle-chevron-left"></i>
             <i class="fa-sharp fa-solid fa-circle-chevron-right"></i>
@@ -154,18 +146,16 @@ function Episodes() {
         </div>
 
         <Slider {...settings}>
-          
-            {poster.map((item) => {
-              return (
-                <div className="card">
-                  <div className="cards-photo">
-                    <img src={item.photo} />
-                  </div>
-                  <h2>{item.title}</h2>
+          {poster.map((item) => {
+            return (
+              <div className="card">
+                <div className="cards-photo">
+                  <img src={item.photo} />
                 </div>
-              );
-            })}
-   
+                <h2>{item.title}</h2>
+              </div>
+            );
+          })}
         </Slider>
       </div>
     </>

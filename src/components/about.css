@@ -175,7 +175,12 @@
         gap: 1rem;
     }
 
-    .about .about-wrapper .sec-title {}
+    .about .about-wrapper .sec-title {
+
+
+        width: 100%;
+        justify-content: center;
+    }
 
     .about .about-wrapper .movie-det {}
 
@@ -202,7 +207,7 @@
 
 
         line-height: 0.7rem;
-        font-size: 8px;
+        font-size: 7px;
     }
 
 
