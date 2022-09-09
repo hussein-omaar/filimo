@@ -1,0 +1,225 @@
+.about {
+
+
+    width: 60%;
+    margin-top: 70px;
+
+}
+
+.about .about-wrapper {
+
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.about .about-wrapper .sec-title {
+
+
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+.about .about-wrapper .sec-title .line {
+
+
+    height: 1px;
+    width: 70px;
+    background-color: #fff;
+
+
+
+}
+
+.about .about-wrapper .sec-title h1 {
+
+
+    color: #fff;
+    font-size: 20px;
+}
+
+.about .about-wrapper .movie-det {
+
+
+
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+
+}
+
+.about .about-wrapper .movie-det .media {
+
+
+    width: 35%;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.about .about-wrapper .movie-det .media .triller-vieo {
+
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+
+
+}
+
+.about .about-wrapper .movie-det .summary {
+
+
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.about .about-wrapper .movie-det .summary .summary-details {
+
+
+    width: 100%;
+    height: 100px;
+}
+
+.about .about-wrapper .movie-det .summary .creator {
+
+
+
+    width: 100%;
+    height: 100px;
+}
+
+.about .about-wrapper .movie-det .summary .casts {
+
+
+
+    width: 100%;
+    height: 100px;
+}
+
+
+.about .about-wrapper .movie-det .summary .summary-details, .creator, .casts {
+
+
+
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 1rem;
+
+
+
+
+}
+
+
+.about .about-wrapper .movie-det .summary h1 {
+
+    color: #9D9EA1;
+    font-size: 13px;
+    width: 13%;
+}
+
+
+
+.about .about-wrapper .movie-det .summary p {
+
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+    line-height: 1.5rem;
+
+}
+
+.about .about-wrapper .movie-det .summary .casts .casts-names {
+
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+@media (max-width: 1029px) {
+
+
+
+    .about {
+
+
+        width: 90%;
+    }
+
+    .about .about-wrapper {
+
+
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .about .about-wrapper .sec-title {}
+
+    .about .about-wrapper .movie-det {}
+
+    .about .about-wrapper .movie-det .media {}
+
+    .about .about-wrapper .movie-det .summary {}
+
+    .about .about-wrapper .movie-det .summary .summary-details, .creator, .casts {
+
+
+        gap: 2rem;
+
+
+
+    }
+
+    .about .about-wrapper .movie-det .summary h1 {
+
+
+        font-size: 9px;
+    }
+
+    .about .about-wrapper .movie-det .summary p {
+
+
+        line-height: 0.7rem;
+        font-size: 8px;
+    }
+
+
+
+
+}
+
+
+
+@media (width:280px) {
+
+
+    .about .about-wrapper .movie-det .summary p {
+
+
+        font-size: 6px;
+    }
+
+
+}

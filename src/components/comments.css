@@ -1,0 +1,408 @@
+.comments {
+
+    width: 910px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 50px;
+
+}
+
+
+.comments .comments-title {
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.comments .comments-title .line {
+
+
+    height: 1px;
+    width: 70px;
+    background-color: #fff;
+
+}
+
+.comments .comments-title h1 {
+
+
+
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.comments .feed {
+
+
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.comments .feed .give-comment {
+
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+
+.comments .feed .give-comment .comment-box {
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #56534E;
+    border-radius: 10px;
+    border: 1px solid #56534E;
+
+}
+
+.comments .feed .give-comment .comment-box input {
+
+
+    width: 100%;
+    background-color: #53504D;
+    padding: 10px 0px 10px 20px;
+    outline: none;
+    color: #fff;
+    border-radius: 10px 0px 10px 0px;
+    border: none;
+
+}
+
+
+.comments .feed .give-comment .comment-box .emojis {
+
+    width: 100%;
+    height: 50px;
+    background-color: #53504D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 5px;
+    border-radius: 10px;
+
+
+}
+
+.comments .feed .give-comment .comment-box .emojis .fa-sharp {
+
+    color: #FFCA36;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.comments .feed .give-comment .btn {
+
+
+    padding: 10px 30px 10px 30px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #FCC537;
+    color: #fff;
+    cursor: pointer;
+}
+
+.comments .feed .public-comments {
+
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+.comments .feed .public-comments .com {
+
+    background-color: #56534E;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+
+}
+
+
+.comments .feed .public-comments .more {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+
+.comments .feed .public-comments .more span {
+
+    font-size: 15px;
+}
+
+.comments .feed .public-comments .more .fa-sharp {
+
+    color: #fff;
+    cursor: pointer;
+}
+
+.comments .feed .public-comments .com .com-info {
+
+
+    width: 80%;
+    height: 80%;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.comments .feed .public-comments .com .com-info .user-pro {
+
+
+    width: 8%;
+    height: 50%;
+    border-radius: 100px;
+
+
+
+}
+
+.comments .feed .public-comments .com .com-info .user-pro img {
+
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.comments .feed .public-comments .com .com-info .review {
+
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.comments .feed .public-comments .com .com-info .review small {
+
+    color: #B8B8B8
+}
+
+.comments .feed .public-comments .com .com-info .review p {
+
+    color: #fff;
+    font-size: 14px;
+}
+
+.comments .feed .public-comments .com .date {
+
+    border-left: 1px solid #fff;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.comments .feed .public-comments .com .date span {
+
+    font-size: 13px;
+}
+
+.comments .feed .public-comments .com .date .out-of {
+
+    color: #FCC537;
+}
+
+
+@media (max-width: 1029px) {
+
+
+    .comments {
+
+
+
+        width: 90%;
+    }
+
+    .comments .comments-title {
+
+
+        width: 250px;
+    }
+
+    .comments .feed {
+
+        gap: 1rem;
+
+
+    }
+
+
+    .comments .feed .give-comment {
+
+
+        height: 200px;
+
+
+    }
+
+    .comments .feed .give-comment .comment-box input {
+
+
+        padding: 15px 0px 0px 0px;
+        font-size: 9px;
+    }
+
+    .comments .feed .give-comment .comment-box .emojis {
+
+
+        height: 40px;
+        justify-content: space-between;
+
+    }
+
+    .comments .feed .give-comment .comment-box .emojis .fa-sharp {
+
+
+        font-size: 12px;
+
+    }
+
+    .comments .feed .give-comment .btn {
+
+
+        padding: 7px 60px 7px 15px;
+
+
+
+    }
+
+  
+    .comments .feed .public-comments .com .com-info {
+
+
+        width: 70%;
+    }
+
+    .comments .feed .public-comments .com .com-info .review {
+
+        width: 90%;
+        gap: 0.3rem;
+
+    }
+
+    .comments .feed .public-comments .com .date {
+
+
+
+        width: 30%;
+
+
+
+
+    }
+
+
+    .comments .feed .public-comments .com .com-info .review p {
+
+
+        font-size: 9px;
+    }
+
+    .comments .feed .public-comments .com .com-info .review small {
+
+
+        font-size: 11px;
+    }
+
+    .comments .feed .public-comments .com .com-info .user-pro {
+
+        width: 10%;
+        height: 40%;
+    }
+
+
+    .comments .feed .public-comments .com .date span {
+
+
+        font-size: 8px;
+    }
+
+
+
+
+}
+
+
+@media (width:280px) {
+
+
+
+
+    .comments .feed .give-comment .comment-box .emojis {
+
+
+        justify-content: space-around;
+        padding-left: unset;
+    }
+
+    .comments .feed .give-comment .comment-box .emojis .fa-sharp {
+
+
+
+        font-size: 8px;
+    }
+
+    .comments .feed .public-comments .com .com-info .user-pro {
+        width: 14%;
+        height: 26%;
+    }
+
+
+    .comments .feed .public-comments .com .com-info .review small {
+
+
+        font-size: 8px;
+    }
+
+    .comments .feed .public-comments .com .com-info .review p {
+
+
+        font-size: 7px;
+    }
+
+    .comments .feed .public-comments .com .date span {
+
+        font-size: 6px;
+    }
+
+
+
+
+
+
+}

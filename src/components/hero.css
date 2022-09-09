@@ -1,0 +1,839 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.hero_section {
+
+
+    width: 100%;
+    height: 90vh;
+    background-Position: center;
+    background-size: cover;
+    background-Repeat: no-repeat;
+}
+
+.hero_section .blur-div {
+
+
+    width: 100%;
+    height: 90vh;
+    background: rgb(0, 0, 0, 0, 8);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.hero_section .blur-div header {
+
+    height: 75px;
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero_section .blur-div header .logo {
+
+
+    width: 100px;
+    height: 30px;
+    opacity: 0.3;
+
+}
+
+.hero_section .blur-div header img {
+
+
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.hero_section .blur-div header .nav-links nav ul {
+
+
+    display: flex;
+    gap: 3.5rem;
+
+}
+
+.hero_section .blur-div header .nav-links nav ul li {
+
+
+    list-style: none;
+
+
+}
+
+.hero_section .blur-div header .nav-links nav ul li button {
+
+
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+
+
+}
+
+
+.hero_section .blur-div header .search-user .user-search-container {
+
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+
+}
+
+.hero_section .blur-div header .search-user .user-search-container .search-wraper {
+
+    position: relative;
+}
+
+.hero_section .blur-div header .search-user .user-search-container img {
+
+
+    cursor: pointer;
+
+}
+
+.hero_section .blur-div header .search-user .user-search-container .search-wraper input {
+
+
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    height: 30px;
+
+
+
+
+}
+
+.hero_section .blur-div header .search-user .user-search-container .search-wraper .fa-sharp {
+
+
+    color: #fff;
+    position: absolute;
+    right: 0;
+    left: 90%;
+    top: 30%;
+    cursor: pointer;
+
+
+
+}
+
+.hero_section .blur-div header .search-user .user-search-container img {
+
+
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+
+
+
+
+}
+
+
+.hero_section .blur-div .movie-info {
+
+
+    width: 910px;
+    height: 70vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.hero_section .blur-div .movie-info .movie-details {
+
+
+    width: 910px;
+    display: flex;
+    gap: 1rem;
+    height: 90%;
+}
+
+
+
+.hero_section .blur-div .movie-info .movie-details .poster {
+
+
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+
+
+
+}
+
+.hero_section .blur-div .movie-info .movie-details .poster img {
+
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+
+.hero_section .blur-div .movie-info .movie-details .poster-details {
+
+
+    width: 60vw;
+    height: 57%;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+
+}
+
+.hero_section .blur-div .movie-info .movie-details .poster-details .btn-list {
+
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    max-width: 80vw;
+}
+
+
+.hero_section .blur-div .movie-info .movie-details .poster-details button {
+
+
+    background-color: #AB9533;
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    opacity: 0.8;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero_section .blur-div .movie-info .movie-details .poster-details .rating {
+
+
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.hero_section .blur-div .movie-info .movie-details .poster-details .rating h2 {
+
+    color: #DFB135;
+}
+
+
+.hero_section .blur-div .movie-info .movie-details .poster-details .rating .rating-stars {
+
+
+    display: flex;
+    align-items: center;
+}
+
+
+.hero_section .blur-div .movie-info .movie-details .poster-details .rating .rating-stars .fa-sharp {
+
+
+    color: #FCC537;
+    font-size: 13px;
+
+
+}
+
+
+.hero_section .blur-div .movie-info .movie-details .poster-details .rating .out-of {
+
+    width: 95px;
+    height: 35px;
+    text-align: center;
+    padding-top: 6px;
+    color: #000;
+    background-color: #FCC537;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.hero_section .blur-div .movie-info .movie-details .poster-details .rating .out-of span {
+
+
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.hero_section .blur-div .movie-info .movie-details .poster-details h1, span {
+
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.hero_section .blur-div .movie-info .movie-details .poster-details h3 {
+
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+
+.hero_section .blur-div .movie-info .movie-details .poster-details p {
+
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+
+
+
+}
+
+.hero_section .blur-div .movie-info .actions {
+
+    height: 20%;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero_section .blur-div .movie-info .actions .partisipate {
+
+
+    width: 50%;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+
+.hero_section .blur-div .movie-info .actions .partisipate .play {
+
+
+    background-color: #FCC537;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+
+
+}
+
+.hero_section .blur-div .movie-info .actions .partisipate .play span {
+
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding-right: 10px;
+
+
+
+
+
+}
+
+.hero_section .blur-div .movie-info .actions .partisipate .add-to-list {
+
+
+    background-color: #474137;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+
+.hero_section .blur-div .movie-info .actions .partisipate .add-to-list span {
+
+    font-size: 10px;
+    font-weight: 700;
+    padding-right: 10px;
+
+}
+
+
+
+.hero_section .blur-div .movie-info .actions .partisipate .download {
+
+
+
+    background-color: #474137;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+
+
+}
+
+.hero_section .blur-div .movie-info .actions .partisipate .download span {
+
+
+    font-size: 10px;
+    font-weight: 700;
+    padding-right: 10px;
+
+
+}
+
+
+.hero_section .blur-div .movie-info .actions .partisipate .fa-solid, .fa-sharp {
+
+
+    color: #fff;
+}
+
+.hero_section .blur-div .movie-info .actions .give-rate {
+
+    width: 50%;
+    display: flex;
+    justify-content: right;
+
+}
+
+
+.hero_section .blur-div .movie-info .actions .give-rate .your-rate {
+
+
+    background-color: #474137;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+
+.hero_section .blur-div .movie-info .actions .give-rate .your-rate span {
+
+    font-size: 11px;
+    font-weight: 700;
+    padding-right: 10px;
+
+}
+
+.hero_section .blur-div .movie-info .actions .give-rate .your-rate .fa-sharp {
+
+
+    font-size: 15px;
+
+    color: #AB9533;
+}
+
+@media (max-width: 1029px) {
+
+
+    .hero_section {
+
+
+        height: 75vh;
+
+    }
+
+    .hero_section .blur-div {
+
+
+        height: 100%;
+
+
+
+    }
+
+
+
+
+
+    .hero_section .blur-div header .logo {
+        width: 45px;
+        height: 18px;
+    }
+
+
+    .hero_section .blur-div header .nav-links nav ul {
+
+
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+
+    .hero_section .blur-div header .nav-links nav ul li {
+
+        display: flex;
+    }
+
+    .hero_section .blur-div header .nav-links nav ul li button {
+
+
+        font-size: 7px;
+    }
+
+    .hero_section .blur-div header .search-user .user-search-container {
+
+
+        gap: 1rem;
+    }
+
+    .hero_section .blur-div header .search-user .user-search-container img {
+
+
+        cursor: pointer;
+        width: 25%;
+        height: 25px;
+
+
+    }
+
+
+    .hero_section .blur-div header .search-user .user-search-container .search-wraper input {
+
+
+
+        height: 19px;
+        width: 50px;
+    }
+
+    .hero_section .blur-div .movie-info {
+
+
+        width: 90%;
+        height: 65%;
+
+    }
+
+
+
+    .hero_section .blur-div .movie-info .movie-details {
+
+
+        width: 100%;
+        height: 270px;
+
+
+    }
+
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details {
+
+        margin-top: 16px;
+        gap: 0.2rem;
+    }
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details .rating h2 {
+
+
+
+        font-size: 15px;
+    }
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details .rating .rating-stars .fa-sharp {
+
+        font-size: 9px;
+
+    }
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details .rating .out-of {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: unset;
+        width: 69px;
+        height: 24px;
+    }
+
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details .rating .out-of span {
+
+
+        font-size: 10px;
+    }
+
+
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details .btn-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.3rem;
+        width: 110px;
+    }
+
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details button {
+
+
+        padding: 5px 5px 5px 5px;
+        font-size: 10px;
+    }
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details h1 {
+
+
+
+        font-size: 13px;
+
+
+
+    }
+
+    .hero_section .blur-div .movie-info .movie-details .poster-details p {
+
+        font-size: 9px;
+
+    }
+
+    .hero_section .blur-div .movie-info .actions {
+
+
+        gap: 0.5rem;
+
+
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate {
+
+
+        width: 70%;
+        gap: 0.5rem;
+
+
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .play {
+
+
+        height: 29px;
+        width: 105px;
+        padding-top: 1px;
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .play span {
+
+
+
+        font-size: 11px;
+
+
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .play .fa-solid, .fa-sharp {
+
+        font-size: 10px;
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .add-to-list {
+
+        height: 36px;
+        width: 178px;
+        display: flex;
+        justify-content: center;
+        padding-top: unset;
+        align-items: center;
+
+
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .add-to-list span {
+
+
+        font-size: 8px;
+
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .download {
+
+
+        height: 36px;
+        width: 178px;
+        display: flex;
+        justify-content: center;
+        padding-top: unset;
+        align-items: center;
+
+
+
+    }
+
+
+
+
+    .hero_section .blur-div .movie-info .actions .give-rate {
+
+
+        width: 25%;
+
+
+    }
+
+
+    .hero_section .blur-div .movie-info .actions .give-rate .your-rate {
+
+
+        height: 36px;
+        width: 106px;
+        display: flex;
+        justify-content: center;
+        padding-top: unset;
+        align-items: center;
+
+
+    }
+
+    .hero_section .blur-div .movie-info .actions .give-rate .your-rate span {
+
+
+        font-size: 8px;
+    }
+
+    .hero_section .blur-div .movie-info .actions .give-rate .your-rate .fa-sharp {
+
+
+        font-size: 7px;
+
+    }
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 390px) and (max-width: 414px) {
+
+    .hero_section {
+
+        height: 60vh;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+
+
+
+    .hero_section {
+
+        height: 48vh;
+
+    }
+
+    .hero_section .blur-div header .nav-links nav ul {
+
+
+        gap: 3rem;
+    }
+
+
+}
+
+
+
+@media (width:280px) {
+
+
+    .hero_section .blur-div header .nav-links nav ul li button {
+        font-size: 6px;
+    }
+
+    .hero_section .blur-div header img {
+
+
+        width: 84%;
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .download {
+
+
+        width: 193px;
+        height: 30px;
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .download span {
+        font-size: 7px;
+
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .play .fa-solid, .fa-sharp {
+        font-size: 7px;
+    }
+
+
+    .hero_section .blur-div .movie-info .actions .partisipate .add-to-list {
+        height: 31px;
+        width: 197px;
+
+    }
+
+
+    .hero_section .blur-div .movie-info .actions .partisipate .add-to-list span {
+        font-size: 6px;
+        padding-right: 5px;
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .play {
+        height: 30px;
+        width: 106px;
+
+    }
+
+    .hero_section .blur-div .movie-info .actions .partisipate .play span {
+        font-size: 7px;
+        padding-right: 6px;
+    }
+
+    .hero_section .blur-div .movie-info .actions .give-rate .your-rate {
+
+
+        height: 32px;
+    }
+
+    .hero_section .blur-div .movie-info .actions .give-rate .your-rate span {
+        font-size: 7px;
+        padding-right: 5px;
+    }
+
+
+}
