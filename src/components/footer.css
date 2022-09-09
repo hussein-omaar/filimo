@@ -271,6 +271,13 @@
 
 @media (width: 1024px) {
 
+
+    .hero_section .blur-div header .nav-links nav ul{
+
+
+        gap: 2.5rem;
+    }
+
     .footer-wrapper .main-content .about-part .social-icons .circle {
         width: 14%;
         height: 84%;
