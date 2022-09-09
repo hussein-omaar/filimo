@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/filimo/static/css/main.3b964941.css",
+    "main.css": "/filimo/static/css/main.b52e2456.css",
     "main.js": "/filimo/static/js/main.38f13c5e.js",
     "static/media/triller.mp4": "/filimo/static/media/triller.d8b50cdf7e117d818b21.mp4",
     "static/media/commenter.png": "/filimo/static/media/commenter.d02b435779a811a8eaa4.png",
@@ -10,11 +10,11 @@
     "static/media/slick.ttf": "/filimo/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/filimo/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/filimo/index.html",
-    "main.3b964941.css.map": "/filimo/static/css/main.3b964941.css.map",
+    "main.b52e2456.css.map": "/filimo/static/css/main.b52e2456.css.map",
     "main.38f13c5e.js.map": "/filimo/static/js/main.38f13c5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b964941.css",
+    "static/css/main.b52e2456.css",
     "static/js/main.38f13c5e.js"
   ]
 }
