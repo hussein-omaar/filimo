@@ -276,5 +276,10 @@
         height: 84%;
     }
 
+  .comments .feed .public-comments .com .com-info .user-pro {
+    height: 55%;
+    width: 11%;
+}
+
 
 }
