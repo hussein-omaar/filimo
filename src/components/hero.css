@@ -502,7 +502,8 @@
     .hero_section .blur-div header .nav-links nav ul li button {
 
 
-        font-size: 7px;
+        font-size: 9px;
+        font-family: sans-serif;
     }
 
     .hero_section .blur-div header .search-user .user-search-container {
