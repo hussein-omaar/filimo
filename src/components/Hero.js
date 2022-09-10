@@ -36,7 +36,7 @@ function Hero() {
                     <button>Home</button>
                   </li>
                   <li>
-                    <button>Movie & series</button>
+                    <button>Movies</button>
                   </li>
                   <li>
                     <button>Live</button>
