@@ -1,18 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "../components/about.css";
-import triller from "../thriller-video/triller.mp4";
+import triller from "../thriller-video/triller.mp4"
 
 function About() {
-  const [movie, setMovie] = useState([
-    {
-      Title: "Star Trek: Enterprise - In a Time of War",
-      Year: "2014",
-      imdbID: "tt3445408",
-      Type: "movie",
-      logo: "https://jooda.ir/wp-content/uploads/2020/10/Filimo-e1621505891300.jpg",
-      Poster: "https://storage.googleapis.com/pod_public/750/124245.jpg",
-    },
-  ]);
+  
   return (
     <>
       <div className="about">
