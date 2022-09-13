@@ -10,7 +10,7 @@ const BASE_URL = "https://api.themoviedb.org/3";
 const IMG_URL = "https://image.tmdb.org/t/p/w500/";
 const API_URL =
   BASE_URL +
-  "/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22&" +
+  "/discover/movie?with_genres=878&with_cast=500&sort_by=vote_average.desc&" +
   API_LEY;
 
 function Episodes() {
