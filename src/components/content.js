@@ -20,6 +20,8 @@ function Content() {
     <Similar_Movies/>
     <Comments/>
     <Footer/>
+ 
+    
     
     
     </div>
